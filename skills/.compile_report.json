@@ -1,0 +1,558 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "openmx",
+  "evidence": {
+    "core_skills": [
+      "openmx-advanced-topics",
+      "openmx-simulation-workflows",
+      "openmx-inputs-and-modeling",
+      "openmx-build-and-install",
+      "openmx-theory-and-methods",
+      "openmx-api-and-scripting"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/openmx-advanced-topics.md",
+      "skills/.evidence/openmx-simulation-workflows.md",
+      "skills/.evidence/openmx-inputs-and-modeling.md",
+      "skills/.evidence/openmx-build-and-install.md",
+      "skills/.evidence/openmx-theory-and-methods.md",
+      "skills/.evidence/openmx-api-and-scripting.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.evidence/memory.md",
+        "skills/openmx-advanced-topics/SKILL.md",
+        "skills/openmx-advanced-topics/references/doc_map.md",
+        "skills/openmx-advanced-topics/references/source_map.md",
+        "skills/openmx-api-and-scripting/SKILL.md",
+        "skills/openmx-api-and-scripting/references/doc_map.md",
+        "skills/openmx-api-and-scripting/references/source_map.md",
+        "skills/openmx-build-and-install/SKILL.md",
+        "skills/openmx-build-and-install/references/source_map.md",
+        "skills/openmx-choice-of-dft-plus-u-scheme-simplified-or-general/SKILL.md",
+        "skills/openmx-choice-of-dft-plus-u-scheme-simplified-or-general/references/doc_map.md",
+        "skills/openmx-choice-of-dft-plus-u-scheme-simplified-or-general/references/source_map.md",
+        "skills/openmx-choice-of-the-double-counting/SKILL.md",
+        "skills/openmx-choice-of-the-double-counting/references/doc_map.md",
+        "skills/openmx-choice-of-the-double-counting/references/source_map.md",
+        "skills/openmx-conventional-pseudopotentials/SKILL.md",
+        "skills/openmx-conventional-pseudopotentials/references/doc_map.md",
+        "skills/openmx-conventional-pseudopotentials/references/source_map.md",
+        "skills/openmx-electric-transport-calculations-general/SKILL.md",
+        "skills/openmx-electric-transport-calculations-general/references/doc_map.md",
+        "skills/openmx-electric-transport-calculations-general/references/source_map.md",
+        "skills/openmx-for-calculations-with-lots-of-k-points/SKILL.md",
+        "skills/openmx-for-calculations-with-lots-of-k-points/references/doc_map.md",
+        "skills/openmx-for-calculations-with-lots-of-k-points/references/source_map.md",
+        "skills/openmx-index/SKILL.md",
+        "skills/openmx-inputs-and-modeling/SKILL.md",
+        "skills/openmx-inputs-and-modeling/references/source_map.md",
+        "skills/openmx-lcao-coefficients/SKILL.md",
+        "skills/openmx-lcao-coefficients/references/doc_map.md",
+        "skills/openmx-lcao-coefficients/references/source_map.md",
+        "skills/openmx-non-collinear-dft/SKILL.md",
+        "skills/openmx-non-collinear-dft/references/doc_map.md",
+        "skills/openmx-non-collinear-dft/references/source_map.md",
+        "skills/openmx-on-the-fly-control-of-scf-mixing-parameters/SKILL.md",
+        "skills/openmx-on-the-fly-control-of-scf-mixing-parameters/references/doc_map.md",
+        "skills/openmx-on-the-fly-control-of-scf-mixing-parameters/references/source_map.md",
+        "skills/openmx-optimization-of-enthalpy/SKILL.md",
+        "skills/openmx-optimization-of-enthalpy/references/doc_map.md",
+        "skills/openmx-optimization-of-enthalpy/references/source_map.md",
+        "skills/openmx-orbital-magnetic-moment/SKILL.md",
+        "skills/openmx-orbital-magnetic-moment/references/doc_map.md",
+        "skills/openmx-orbital-magnetic-moment/references/source_map.md",
+        "skills/openmx-orbital-optimization/SKILL.md",
+        "skills/openmx-orbital-optimization/references/doc_map.md",
+        "skills/openmx-orbital-optimization/references/source_map.md",
+        "skills/openmx-preparation-of-config-file-for-jx/SKILL.md",
+        "skills/openmx-preparation-of-config-file-for-jx/references/doc_map.md",
+        "skills/openmx-preparation-of-config-file-for-jx/references/source_map.md",
+        "skills/openmx-real-space-charge-spin-current-density/SKILL.md",
+        "skills/openmx-real-space-charge-spin-current-density/references/doc_map.md",
+        "skills/openmx-real-space-charge-spin-current-density/references/source_map.md",
+        "skills/openmx-simulation-workflows/SKILL.md",
+        "skills/openmx-simulation-workflows/references/source_map.md",
+        "skills/openmx-spin-spiral-calculations/SKILL.md",
+        "skills/openmx-spin-spiral-calculations/references/doc_map.md",
+        "skills/openmx-spin-spiral-calculations/references/source_map.md",
+        "skills/openmx-step-2-the-negf-calculation/SKILL.md",
+        "skills/openmx-step-2-the-negf-calculation/references/doc_map.md",
+        "skills/openmx-step-2-the-negf-calculation/references/source_map.md",
+        "skills/openmx-theory-and-methods/SKILL.md",
+        "skills/openmx-theory-and-methods/references/doc_map.md",
+        "skills/openmx-theory-and-methods/references/source_map.md",
+        "skills/openmx-transmission-total-current-and-conductance/SKILL.md",
+        "skills/openmx-transmission-total-current-and-conductance/references/doc_map.md",
+        "skills/openmx-transmission-total-current-and-conductance/references/source_map.md",
+        "skills/openmx-troubleshooting/SKILL.md",
+        "skills/openmx-troubleshooting/references/doc_map.md",
+        "skills/openmx-troubleshooting/references/source_map.md",
+        "skills/openmx-voronoi-charge/SKILL.md",
+        "skills/openmx-voronoi-charge/references/doc_map.md",
+        "skills/openmx-voronoi-charge/references/source_map.md",
+        "skills/openmx-zeeman-term-for-orbital-magnetic-moment/SKILL.md",
+        "skills/openmx-zeeman-term-for-orbital-magnetic-moment/references/doc_map.md",
+        "skills/openmx-zeeman-term-for-orbital-magnetic-moment/references/source_map.md",
+        "skills/openmx-zeeman-term-for-spin-magnetic-moment/SKILL.md",
+        "skills/openmx-zeeman-term-for-spin-magnetic-moment/references/doc_map.md",
+        "skills/openmx-zeeman-term-for-spin-magnetic-moment/references/source_map.md"
+      ],
+      "deleted": [
+        "skills/openmx-choice-of-dft-plus-u-scheme-simplified-or-general/SKILL.md",
+        "skills/openmx-choice-of-dft-plus-u-scheme-simplified-or-general/references/doc_map.md",
+        "skills/openmx-choice-of-dft-plus-u-scheme-simplified-or-general/references/source_map.md",
+        "skills/openmx-choice-of-the-double-counting/SKILL.md",
+        "skills/openmx-choice-of-the-double-counting/references/doc_map.md",
+        "skills/openmx-choice-of-the-double-counting/references/source_map.md",
+        "skills/openmx-conventional-pseudopotentials/SKILL.md",
+        "skills/openmx-conventional-pseudopotentials/references/doc_map.md",
+        "skills/openmx-conventional-pseudopotentials/references/source_map.md",
+        "skills/openmx-electric-transport-calculations-general/SKILL.md",
+        "skills/openmx-electric-transport-calculations-general/references/doc_map.md",
+        "skills/openmx-electric-transport-calculations-general/references/source_map.md",
+        "skills/openmx-for-calculations-with-lots-of-k-points/SKILL.md",
+        "skills/openmx-for-calculations-with-lots-of-k-points/references/doc_map.md",
+        "skills/openmx-for-calculations-with-lots-of-k-points/references/source_map.md",
+        "skills/openmx-lcao-coefficients/SKILL.md",
+        "skills/openmx-lcao-coefficients/references/doc_map.md",
+        "skills/openmx-lcao-coefficients/references/source_map.md",
+        "skills/openmx-non-collinear-dft/SKILL.md",
+        "skills/openmx-non-collinear-dft/references/doc_map.md",
+        "skills/openmx-non-collinear-dft/references/source_map.md",
+        "skills/openmx-on-the-fly-control-of-scf-mixing-parameters/SKILL.md",
+        "skills/openmx-on-the-fly-control-of-scf-mixing-parameters/references/doc_map.md",
+        "skills/openmx-on-the-fly-control-of-scf-mixing-parameters/references/source_map.md",
+        "skills/openmx-optimization-of-enthalpy/SKILL.md",
+        "skills/openmx-optimization-of-enthalpy/references/doc_map.md",
+        "skills/openmx-optimization-of-enthalpy/references/source_map.md",
+        "skills/openmx-orbital-magnetic-moment/SKILL.md",
+        "skills/openmx-orbital-magnetic-moment/references/doc_map.md",
+        "skills/openmx-orbital-magnetic-moment/references/source_map.md",
+        "skills/openmx-orbital-optimization/SKILL.md",
+        "skills/openmx-orbital-optimization/references/doc_map.md",
+        "skills/openmx-orbital-optimization/references/source_map.md",
+        "skills/openmx-preparation-of-config-file-for-jx/SKILL.md",
+        "skills/openmx-preparation-of-config-file-for-jx/references/doc_map.md",
+        "skills/openmx-preparation-of-config-file-for-jx/references/source_map.md",
+        "skills/openmx-real-space-charge-spin-current-density/SKILL.md",
+        "skills/openmx-real-space-charge-spin-current-density/references/doc_map.md",
+        "skills/openmx-real-space-charge-spin-current-density/references/source_map.md",
+        "skills/openmx-spin-spiral-calculations/SKILL.md",
+        "skills/openmx-spin-spiral-calculations/references/doc_map.md",
+        "skills/openmx-spin-spiral-calculations/references/source_map.md",
+        "skills/openmx-step-2-the-negf-calculation/SKILL.md",
+        "skills/openmx-step-2-the-negf-calculation/references/doc_map.md",
+        "skills/openmx-step-2-the-negf-calculation/references/source_map.md",
+        "skills/openmx-transmission-total-current-and-conductance/SKILL.md",
+        "skills/openmx-transmission-total-current-and-conductance/references/doc_map.md",
+        "skills/openmx-transmission-total-current-and-conductance/references/source_map.md",
+        "skills/openmx-troubleshooting/SKILL.md",
+        "skills/openmx-troubleshooting/references/doc_map.md",
+        "skills/openmx-troubleshooting/references/source_map.md",
+        "skills/openmx-voronoi-charge/SKILL.md",
+        "skills/openmx-voronoi-charge/references/doc_map.md",
+        "skills/openmx-voronoi-charge/references/source_map.md",
+        "skills/openmx-zeeman-term-for-orbital-magnetic-moment/SKILL.md",
+        "skills/openmx-zeeman-term-for-orbital-magnetic-moment/references/doc_map.md",
+        "skills/openmx-zeeman-term-for-orbital-magnetic-moment/references/source_map.md",
+        "skills/openmx-zeeman-term-for-spin-magnetic-moment/SKILL.md",
+        "skills/openmx-zeeman-term-for-spin-magnetic-moment/references/doc_map.md",
+        "skills/openmx-zeeman-term-for-spin-magnetic-moment/references/source_map.md"
+      ],
+      "modified": [
+        "skills/openmx-advanced-topics/SKILL.md",
+        "skills/openmx-advanced-topics/references/doc_map.md",
+        "skills/openmx-advanced-topics/references/source_map.md",
+        "skills/openmx-api-and-scripting/SKILL.md",
+        "skills/openmx-api-and-scripting/references/doc_map.md",
+        "skills/openmx-api-and-scripting/references/source_map.md",
+        "skills/openmx-build-and-install/SKILL.md",
+        "skills/openmx-build-and-install/references/source_map.md",
+        "skills/openmx-index/SKILL.md",
+        "skills/openmx-inputs-and-modeling/SKILL.md",
+        "skills/openmx-inputs-and-modeling/references/source_map.md",
+        "skills/openmx-simulation-workflows/SKILL.md",
+        "skills/openmx-simulation-workflows/references/source_map.md",
+        "skills/openmx-theory-and-methods/SKILL.md",
+        "skills/openmx-theory-and-methods/references/doc_map.md",
+        "skills/openmx-theory-and-methods/references/source_map.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/openmx-advanced-topics/references/doc_map.md",
+        "skills/openmx-advanced-topics/references/source_map.md",
+        "skills/openmx-analysis-and-output/SKILL.md",
+        "skills/openmx-analysis-and-output/references/doc_map.md",
+        "skills/openmx-analysis-and-output/references/source_map.md",
+        "skills/openmx-api-and-scripting/SKILL.md",
+        "skills/openmx-api-and-scripting/references/doc_map.md",
+        "skills/openmx-api-and-scripting/references/source_map.md",
+        "skills/openmx-build-and-install/SKILL.md",
+        "skills/openmx-build-and-install/references/doc_map.md",
+        "skills/openmx-build-and-install/references/source_map.md",
+        "skills/openmx-examples-and-tutorials/SKILL.md",
+        "skills/openmx-examples-and-tutorials/references/doc_map.md",
+        "skills/openmx-examples-and-tutorials/references/source_map.md",
+        "skills/openmx-index/SKILL.md",
+        "skills/openmx-inputs-and-modeling/references/doc_map.md",
+        "skills/openmx-inputs-and-modeling/references/source_map.md",
+        "skills/openmx-parallel-hpc/SKILL.md",
+        "skills/openmx-parallel-hpc/references/doc_map.md",
+        "skills/openmx-parallel-hpc/references/source_map.md",
+        "skills/openmx-simulation-workflows/references/doc_map.md",
+        "skills/openmx-simulation-workflows/references/source_map.md",
+        "skills/openmx-theory-and-methods/SKILL.md",
+        "skills/openmx-theory-and-methods/references/doc_map.md",
+        "skills/openmx-theory-and-methods/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/.evidence/memory.md",
+        "skills/openmx-advanced-topics/references/doc_map.md",
+        "skills/openmx-advanced-topics/references/source_map.md",
+        "skills/openmx-analysis-and-output/SKILL.md",
+        "skills/openmx-analysis-and-output/references/doc_map.md",
+        "skills/openmx-analysis-and-output/references/source_map.md",
+        "skills/openmx-api-and-scripting/SKILL.md",
+        "skills/openmx-api-and-scripting/references/doc_map.md",
+        "skills/openmx-api-and-scripting/references/source_map.md",
+        "skills/openmx-build-and-install/SKILL.md",
+        "skills/openmx-build-and-install/references/doc_map.md",
+        "skills/openmx-build-and-install/references/source_map.md",
+        "skills/openmx-examples-and-tutorials/SKILL.md",
+        "skills/openmx-examples-and-tutorials/references/doc_map.md",
+        "skills/openmx-examples-and-tutorials/references/source_map.md",
+        "skills/openmx-index/SKILL.md",
+        "skills/openmx-inputs-and-modeling/references/doc_map.md",
+        "skills/openmx-inputs-and-modeling/references/source_map.md",
+        "skills/openmx-parallel-hpc/SKILL.md",
+        "skills/openmx-parallel-hpc/references/doc_map.md",
+        "skills/openmx-parallel-hpc/references/source_map.md",
+        "skills/openmx-simulation-workflows/references/doc_map.md",
+        "skills/openmx-simulation-workflows/references/source_map.md",
+        "skills/openmx-theory-and-methods/SKILL.md",
+        "skills/openmx-theory-and-methods/references/doc_map.md",
+        "skills/openmx-theory-and-methods/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "manual"
+    ],
+    "docs_only": false,
+    "notes": [
+      "manual/ is the Markdown export of the OpenMX 3.9 manual and the primary documentation root.",
+      "work/ contains the package's runnable example inputs; many top-level .dat files are referenced directly by the manual.",
+      "Several work/*_example directories double as automated runtest fixtures and reference outputs.",
+      "Test driver sources live inside source/ alongside the main codebase (for example Runtest.c, Maketest.c, Force_test.c, Stress_test.c, and Memory_Leak_test.c).",
+      "source/elpa-2018.05.001 is vendored third-party code under the main source tree.",
+      "sci-skills-generator/scripts/generate_skills_folder.py was patched in this pass to fix dry-run syntax errors and discover *_example tutorial directories."
+    ],
+    "package_name": "openmx",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "source"
+    ],
+    "test_dirs": [
+      "work/input_example",
+      "work/large_example",
+      "work/large2_example",
+      "work/large3_example",
+      "work/force_example",
+      "work/stress_example",
+      "work/ml_example",
+      "work/negf_example",
+      "work/wf_example",
+      "work/cddf_example"
+    ],
+    "tutorial_dirs": [
+      "work"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmx-openmx",
+  "run_id": "compile_20260314T130154040879Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "openmx-advanced-topics",
+      "openmx-analysis-and-output",
+      "openmx-api-and-scripting",
+      "openmx-build-and-install",
+      "openmx-choice-of-dft-plus-u-scheme-simplified-or-general",
+      "openmx-choice-of-the-double-counting",
+      "openmx-conventional-pseudopotentials",
+      "openmx-electric-transport-calculations-general",
+      "openmx-examples-and-tutorials",
+      "openmx-for-calculations-with-lots-of-k-points",
+      "openmx-index",
+      "openmx-inputs-and-modeling",
+      "openmx-lcao-coefficients",
+      "openmx-non-collinear-dft",
+      "openmx-on-the-fly-control-of-scf-mixing-parameters",
+      "openmx-optimization-of-enthalpy",
+      "openmx-orbital-magnetic-moment",
+      "openmx-orbital-optimization",
+      "openmx-parallel-hpc",
+      "openmx-preparation-of-config-file-for-jx",
+      "openmx-real-space-charge-spin-current-density",
+      "openmx-simulation-workflows",
+      "openmx-spin-spiral-calculations",
+      "openmx-step-2-the-negf-calculation",
+      "openmx-theory-and-methods",
+      "openmx-transmission-total-current-and-conductance",
+      "openmx-troubleshooting",
+      "openmx-voronoi-charge",
+      "openmx-zeeman-term-for-orbital-magnetic-moment",
+      "openmx-zeeman-term-for-spin-magnetic-moment"
+    ],
+    "core_skill_ids": [
+      "openmx-advanced-topics",
+      "openmx-simulation-workflows",
+      "openmx-inputs-and-modeling",
+      "openmx-build-and-install",
+      "openmx-theory-and-methods",
+      "openmx-api-and-scripting"
+    ],
+    "deferred_gaps": [
+      "Auto-discovery still does not infer OpenMX test roots by default; future generation should use skills/.compile_profile.json test_dirs explicitly.",
+      "The generator dry run still produces many one-doc leaf topics, so pass 2 should consolidate low-signal topics into an advanced-topics skill before enrichment.",
+      "Some manual references use path spellings that do not exactly match the checked-in tree, such as cddf_examples versus work/cddf_example."
+    ],
+    "goal": "Generate a docs-first OpenMX skills set, then enrich only the highest-signal workflows in passes 2 and 3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Route users into the smallest relevant topic skill before any source inspection.",
+          "Point single-doc leftovers toward an advanced-topics bucket instead of fragmenting the skill tree.",
+          "Surface the main docs, example, test, and source roots."
+        ],
+        "reason": "The manual is broad and auto-grouping already produces many narrow leaf topics; the router needs to keep the package navigable.",
+        "skill_id": "openmx-index",
+        "source_hints": [
+          "manual/openmx-manual.md",
+          "manual/contents.md",
+          "manual/index.md",
+          "skills/.compile_profile.json"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Serial, MPI, and MPI/OpenMP build paths.",
+          "Library dependencies and make options.",
+          "Post-install smoke-test guidance."
+        ],
+        "reason": "Installation, compiler flags, and MPI/OpenMP variants are the first blocker for most OpenMX users.",
+        "skill_id": "openmx-build-and-install",
+        "source_hints": [
+          "manual/installation.md",
+          "manual/serial-version.md",
+          "manual/mpi-version.md",
+          "manual/mpi-openmp-version.md",
+          "manual/options-for-make.md",
+          "manual/tips-for-installation.md"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Input file structure and key keywords.",
+          "Basis sets, pseudopotentials, and DFT database usage.",
+          "Functional and DFT+U setup decisions."
+        ],
+        "reason": "Input syntax, basis selection, pseudopotentials, and functional choices are dense and recur across nearly every workflow.",
+        "skill_id": "openmx-inputs-and-modeling",
+        "source_hints": [
+          "manual/input-file.md",
+          "manual/input-file-keywords.md",
+          "manual/basis-sets.md",
+          "manual/pseudopotentials.md",
+          "manual/functional.md",
+          "manual/dft-plus-u-methods.md",
+          "work"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "SCF convergence, restart, and output review.",
+          "Geometry optimization and variable-cell optimization.",
+          "Molecular dynamics and NEB execution patterns."
+        ],
+        "reason": "SCF, relaxation, MD, restart, and NEB workflows are the main day-to-day use cases and need a single canonical route.",
+        "skill_id": "openmx-simulation-workflows",
+        "source_hints": [
+          "manual/convergence.md",
+          "manual/restarting-general.md",
+          "manual/geometry-optimization.md",
+          "manual/variable-cell-optimization.md",
+          "manual/molecular-dynamics.md",
+          "manual/nudged-elastic-band-neb-method.md",
+          "work/geoopt_example",
+          "work/cellopt_example"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "MPI, OpenMP, and hybrid execution modes.",
+          "Large-scale runtestL, runtestL2, and runtestL3 behavior checks.",
+          "JX-related parallel execution and scaling references."
+        ],
+        "reason": "OpenMX exposes several parallel execution modes and built-in large-scale runtests that deserve an explicit HPC playbook.",
+        "skill_id": "openmx-parallel-hpc",
+        "source_hints": [
+          "manual/parallel-calculation.md",
+          "manual/mpi-openmp-hybrid-parallelization.md",
+          "manual/execution-of-jx-and-mpi-parallelization.md",
+          "manual/automatic-running-test-with-large-scale-systems.md",
+          "manual/large-scale-calculations-conventional-scheme.md",
+          "source/openmx.c",
+          "source/Runtest.c"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Output files, visualization, and result inspection.",
+          "Band structure, DOS, charge-density, and STM-style analyses.",
+          "Interfaces to downstream tools such as Wannier90 and BoltzTraP."
+        ],
+        "reason": "The package has many output formats and post-processing modes, and users need a compact path through them.",
+        "skill_id": "openmx-analysis-and-output",
+        "source_hints": [
+          "manual/output-files.md",
+          "manual/visualization.md",
+          "manual/band-calculation.md",
+          "manual/density-of-states.md",
+          "manual/analysis-of-band-structures.md",
+          "manual/interface-with-wannier90.md",
+          "manual/interface-with-boltztrap.md"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Lead-device NEGF workflow and its test fixtures.",
+          "MLWF and optical-conductivity example flows.",
+          "Unfolding, Berry/topological, and related advanced analysis entry points."
+        ],
+        "reason": "NEGF, MLWF, optical conductivity, unfolding, and topological analyses are advanced but high-value workflows with concrete example directories.",
+        "skill_id": "openmx-theory-and-methods",
+        "source_hints": [
+          "manual/electric-transport-calculations.md",
+          "manual/automatic-running-test-of-negf.md",
+          "manual/maximally-localized-wannier-function.md",
+          "manual/automatic-running-test-of-mlwf.md",
+          "manual/optical-conductivity-and-dielectric-function.md",
+          "manual/unfolding-of-band-structures.md",
+          "work/negf_example",
+          "work/wf_example",
+          "work/cddf_example",
+          "work/unfolding_example"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "Library or computational-engine embedding entry points.",
+          "Developer post-processing interface examples.",
+          "Where built-in test driver sources live in source/."
+        ],
+        "reason": "Developer-facing hooks exist, but they are mixed into the main source tree and need careful docs-first routing instead of broad source dumps.",
+        "skill_id": "openmx-zeeman-term-for-spin-magnetic-moment",
+        "source_hints": [
+          "manual/interface-for-developers.md",
+          "manual/calling-openmx-as-library-or-computational-engine.md",
+          "source",
+          "source/openmx.c",
+          "source/Runtest.c"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "openmx-theory-and-methods",
+      "openmx-simulation-workflows",
+      "openmx-parallel-hpc",
+      "openmx-inputs-and-modeling",
+      "openmx-examples-and-tutorials",
+      "openmx-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmx-openmx/skills/openmx-parallel-hpc/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/openmx-openmx/skills/openmx-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "skill plan target missing from generated skills/: openmx-zeeman-term-for-spin-magnetic-moment"
+    ],
+    "index_skills": [
+      "openmx-index"
+    ],
+    "missing_planned_skills": [
+      "openmx-zeeman-term-for-spin-magnetic-moment"
+    ],
+    "ok": false,
+    "planned_skill_ids": [
+      "openmx-index",
+      "openmx-build-and-install",
+      "openmx-inputs-and-modeling",
+      "openmx-simulation-workflows",
+      "openmx-parallel-hpc",
+      "openmx-analysis-and-output",
+      "openmx-theory-and-methods",
+      "openmx-zeeman-term-for-spin-magnetic-moment"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 10,
+    "source_inventory": {},
+    "source_links_total": 96,
+    "topic_skills": 9,
+    "warnings": []
+  }
+}
